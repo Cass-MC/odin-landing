@@ -2,18 +2,49 @@ body {
     background: #1F2937;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
-/*Not sure why there's space between the sides+top*/
 .header {
-    background: red;
-    font-family: 'Hero Secondary', sans-serif;
-    color: white;
     padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 40px;
+    margin-bottom: 120px;
+}
+
+.header, .welcome, .titleInfo button {
+    color: white;
+    font-family: 'Hero Secondary', sans-serif;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titleInfo {
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+}
+
+.titleInfo h1 {
+    font-family: 'Hero Main', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.titleInfo button {
+    width: 100px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    font-weight: 600;
 }
 
 .header ul, a {
