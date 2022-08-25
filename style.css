@@ -60,7 +60,7 @@ body {
     font-weight: 600;
 }
 
-.galleryBody, .gallery, .quoteBody {
+.galleryBody, .gallery, .quoteBody, .signUp {
     font-family: 'Hero Secondary', sans-serif;
     color: black;
 }
@@ -108,4 +108,36 @@ body {
     width: 240px;
     margin-left: auto;
     font-weight: 600;
+}
+
+.signUp {
+    background: white;
+    height: 280px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signBox {
+    width: 1000px;
+    background: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.signText p, .signText h1 {
+   margin: 0;
+   color: white;
+}
+
+.signUp button {
+    border: solid white;
+    border-radius: 20px;
+    background: #3882F6;
+    color: white;
+    width: 150px;
+    padding: 10px;
 }
