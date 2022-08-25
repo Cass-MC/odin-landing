@@ -14,7 +14,7 @@ body {
     margin-bottom: 120px;
 }
 
-.header, .welcome, .titleInfo button {
+.header, .welcome, .titleInfo button, .footer {
     color: white;
     font-family: 'Hero Secondary', sans-serif;
 }
@@ -140,4 +140,11 @@ body {
     color: white;
     width: 150px;
     padding: 10px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
